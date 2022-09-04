@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon ./server/server.ts"
+    "server": "ts-node ./server/server.ts"
   },
   "author": "",
   "license": "ISC"
