@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "ts-node ./server/server.ts"
+    "start": "node ./server/server.ts"
   },
   "author": "",
   "license": "ISC"
