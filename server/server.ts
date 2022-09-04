@@ -5,7 +5,7 @@ const middlewares = jsonServer.defaults();
 const db = require('./db.json');
 const fs = require('fs');
 
-const port = process.env.PORT || 4000;
+const port = 9000;
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
